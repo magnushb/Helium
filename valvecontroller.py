@@ -12,7 +12,7 @@ from PyDAQmx import Task
 import numpy as np
 
 class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
+    def setupUi(self, MainWindow): 
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(316, 249)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
